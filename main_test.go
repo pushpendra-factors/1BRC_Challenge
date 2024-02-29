@@ -7,7 +7,7 @@ import (
 
 func Benchmark(b *testing.B) {
 	filepath := "./data/measurements-100000000.txt"
-	//readFileAndBuildMap(filepath)
+	//run(filepath)
 	evaluate(filepath)
 	fmt.Print("SD")
 }
